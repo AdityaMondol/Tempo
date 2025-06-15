@@ -24,7 +24,7 @@ def generate_response(client: genai.Client, prompt: str) -> Optional[str]:
 
 def main():
     """This function is kept for backwards compatibility."""
-    api_key = "AIzaSyDh2nKVwIDshhwpNVyl57dFrg-fG5cmmsQ"
+    api_key = "Your_APi_Key" #Apply your gemini api key
     
     if not validate_api_key(api_key):
         raise ValueError("Invalid API key")
